@@ -1,0 +1,52 @@
+#listTitle {
+  background-color: black;
+  font-size: 80%;
+  color: white;
+}
+
+.list-group a {
+  font-size: 70%;
+}
+
+#createProject {
+  font-size: 110%;
+}
+
+.card-body p {
+  font-size: 70%;
+}
+
+.card-body h5 {
+  font-size: 90%;
+}
+
+#smallText {
+  font-size: 75%;
+}
+
+@media (max-width: 989px) {
+  #listTitle {
+    background-color: black;
+    font-size: 60%;
+    color: white;
+  }
+  .list-group a {
+    font-size: 50%;
+  }
+
+  #createProject {
+    font-size: 90%;
+  }
+
+  .card-body p {
+    font-size: 50%;
+  }
+
+  .card-body h5 {
+    font-size: 60%;
+  }
+
+  #smallText {
+    font-size: 55%;
+  }
+}

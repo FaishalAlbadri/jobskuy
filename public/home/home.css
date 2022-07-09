@@ -1,0 +1,47 @@
+#search {
+  width: 700px;
+}
+
+.list-group a {
+  font-size: 70%;
+}
+
+.card-body p {
+  font-size: 70%;
+}
+
+.card-body h5 {
+  font-size: 90%;
+}
+
+#listTitle {
+  background-color: black;
+  font-size: 80%;
+  color: white;
+}
+
+@media (max-width: 989px) {
+  #search {
+    margin-top: 1em;
+    width: auto;
+    margin-bottom: 0.5em;
+  }
+
+  .list-group a {
+    font-size: 50%;
+  }
+
+  .card-body p {
+    font-size: 50%;
+  }
+
+  .card-body h5 {
+    font-size: 60%;
+  }
+
+  #listTitle {
+    background-color: black;
+    font-size: 60%;
+    color: white;
+  }
+}

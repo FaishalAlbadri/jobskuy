@@ -1,0 +1,36 @@
+#normalP {
+  font-size: 80%;
+}
+
+#subTitle {
+  font-size: 100%;
+}
+
+#bidrange {
+  font-size: 150%;
+}
+
+hr.rounded {
+  border-top: 2px solid #f08425;
+  border-radius: 5px;
+}
+
+@media (max-width: 989px) {
+  #normalP {
+    font-size: 90%;
+  }
+
+  #subTitle {
+    font-size: 90%;
+  }
+
+  #bidrange {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #titleproject {
+    margin-top: 1em;
+  }
+}

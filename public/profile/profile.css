@@ -1,0 +1,37 @@
+.card-body p {
+  font-size: 70%;
+}
+
+.card-body h5 {
+  font-size: 90%;
+}
+
+.list-group a {
+  font-size: 70%;
+}
+
+#listTitle {
+  background-color: black;
+  font-size: 80%;
+  color: white;
+}
+
+@media (max-width: 989px) {
+  .card-body p {
+    font-size: 50%;
+  }
+
+  .card-body h5 {
+    font-size: 60%;
+  }
+
+  .list-group a {
+    font-size: 50%;
+  }
+
+  #listTitle {
+    background-color: black;
+    font-size: 60%;
+    color: white;
+  }
+}
